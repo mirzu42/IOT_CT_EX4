@@ -85,7 +85,7 @@ void ssd1306::init() {
             SSD1306_SET_PRECHARGE,          // set pre-charge period
             0xF1,                           // Vcc internally generated on our board
             SSD1306_SET_VCOM_DESEL,         // set VCOMH deselect level
-            0x30,                           // 0.83xVcc
+            0x40,                           // 0.83xVcc
             /* display */
             SSD1306_SET_CONTRAST,           // set contrast control
             0xFF,

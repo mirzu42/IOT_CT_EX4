@@ -71,6 +71,7 @@ add_executable(${PROJECT_NAME}
         spi/PicoSPIDevice.h
         display/rgb_palette.cpp
         display/rgb_palette.h
+
 )
 
 # Create map/bin/hex/uf2 files
@@ -99,6 +100,7 @@ target_link_libraries(${PROJECT_NAME}
         hardware_i2c
         hardware_spi
         hardware_gpio
+        hardware_adc
         pico_cyw43_arch_lwip_poll
         cjson
 )
